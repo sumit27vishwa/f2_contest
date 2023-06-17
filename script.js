@@ -8,10 +8,15 @@ let arr = [
 let brr = [
   { id: 4, name: "janardan", age: "22", profession: "coder" },
 ];
+let drr = [
+  { id: 4, name: "Sumit", age: "21", profession: "Doctor" },
+  { id: 5, name: "Johnson", age: "25", profession: "Driver" },
+  { id: 6, name: "Bob", age: "35", profession: "Engineer" },
+];
 
 function PrintDeveloperbyMap() {
   for(let i=0;i<arr.length;i++){
-  if(arr.map(profession)="developer"){
+  if(arr.map(arr.profession) = "developer"){
      console.log(arr[i]);
    }
   } //Write your code here , just console.log
@@ -19,7 +24,7 @@ function PrintDeveloperbyMap() {
 
 function PrintDeveloperbyForEach() {
   for(let i=0;i<arr.length;i++){
-  if(arr.ForEach(profession)="developer"){
+  if(arr.forEach(arr.profession)="developer"){
      console.log(arr[i]);
    }
   }
@@ -40,7 +45,7 @@ function removeAdmin() {
 }
 
 function concatenateArray() {
-  const children = arr.concat(brr);
-  console.log(children);
+  const cont_obj = arr.concat(drr);
+  console.log(cont_obj);
   //Write your code here, just console.log
 }
